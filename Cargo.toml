@@ -1,0 +1,16 @@
+[package]
+name = "gww"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "*"
+clap = {version = "*", features = ["derive"]}
+colored = "*"
+crossterm = {version = "*", features = ["event-stream"]}
+dialoguer = {version = "*", features = ["fuzzy-select"]}
+futures = {version = "*"}
+futures-timer = {version = "*"}
+reqwest = {version = "*", features = ["stream", "json"]}
+serde = {version = "*", features = ["derive"]}
+tokio = {version = "*", features = ["full"]}
